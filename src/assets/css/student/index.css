@@ -1,0 +1,107 @@
+.student {
+  width: 1263px;
+}
+
+h2 {
+  text-indent: 30px;
+}
+
+.student .el-divider {
+  background: #c0e3e7 !important;
+  height: 1.5px !important;
+  width: 90% !important;
+  margin: 24px 30px !important;
+}
+
+.stu_logo {
+  position: absolute;
+  top: 37%;
+  left: 24%;
+  line-height: 0px;
+}
+
+.stu_logo span {
+  font-size: 24px;
+}
+
+.icon-zhankai {
+  cursor: pointer;
+}
+
+.dMenu .el-menu-item,
+.el-submenu__title {
+  color: #6f6f6f;
+  font: 18px;
+  letter-spacing: 0.2rem;
+  font-weight: 700;
+}
+
+.zkai {
+  position: absolute;
+  right: 0%;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: #fff;
+}
+
+.zkai i {
+  font-size: 28px;
+  color: #000;
+  font-weight: 700;
+  /* line-height: 56px;
+  text-indent: 14px; */
+  display: inline-block;
+}
+
+.student .el-aside {
+  width: 240px;
+}
+
+.student .el-aside .el-avatar {
+  width: 195px;
+  height: 195px;
+  margin: 12% 0 0 17%;
+}
+
+.student .el-aside p {
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+}
+
+.el-aside .username {
+  font-size: 26px;
+}
+
+.student .el-aside .other {
+  color: #757575;
+}
+
+.student .cont {
+  margin-top: 30px;
+}
+
+.student .el-main {
+  box-shadow: 3px 6px 8px 4px #999;
+  background: #fff;
+  margin: 0 20px 0 20px;
+}
+
+.student .cont .el-aside .person {
+  padding-bottom: 10px;
+  background-color: #c0e3e7;
+}
+
+.friend {
+  background: #fff;
+  /* padding-bottom: 15px; */
+}
+
+.friend .el-button {
+  border-radius: 35px;
+  background: #000;
+  width: 200px;
+  color: #fff;
+  font-size: 18px;
+  margin: 35px 0 0 15%;
+}

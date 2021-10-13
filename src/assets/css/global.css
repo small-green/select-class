@@ -1,0 +1,19 @@
+/* 全局样式 */
+html,
+body,
+#app {
+  padding: 0;
+  height: 100%;
+  margin: 0;
+  list-style: none;
+  font-family: "Muli", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+}

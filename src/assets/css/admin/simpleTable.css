@@ -1,0 +1,42 @@
+.allButton {
+  /* display: flex; */
+  background: #fff;
+  padding: 15px;
+  /* justify-content: space-between; */
+}
+
+
+.allButton .count {
+  font-size: 14px;
+  /* position: fixed;
+  right: 15px; */
+  margin-left: 60%;
+}
+
+.el-pagination {
+  margin: 3% 0 0 26%;
+}
+
+.el-table .cell {
+  text-align: center;
+}
+
+.el-table td,
+.el-table th {
+  padding: 10px !important;
+}
+
+.el-input__inner {
+  width: 80% !important;
+}
+
+.el-icon-edit,
+.el-icon-delete {
+  display: inline-block;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.select {
+  width: 100%;
+}

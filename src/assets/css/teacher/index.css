@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  height: 100% !important;
+}
+
+@media screen and (max-width: 800px) {
+  .aside {
+    width: 60px !important;
+  }
+
+  .aside span {
+    display: none;
+  }
+
+  .content {
+    margin-left: 60px !important;
+  }
+
+  .cont_detail {
+    width: 88% !important;
+  }
+}
+
+.teacher_index {
+  display: flex;
+  height: 100vh;
+  flex-wrap: nowrap;
+}
+
+.aside {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  background: #304156;
+  height: 100vh;
+  flex: none;
+  transition: width ease 0.5s;
+}
+
+.el-menu {
+  border-right: none;
+}
+
+.el-menu-item i {
+  margin-right: 20px;
+}
+
+.content {
+  position: relative;
+  /* right: 0; */
+  height: 100%;
+  transition: left 0.5s;
+  flex: 1;
+  transition: margin-left 0.5s;
+}
+
+.navbar {
+  height: 50px;
+  box-shadow: 0 1px 4px rgb(0 21 41 / 8%);
+}
+
+.bread {
+  flex: 1;
+  margin: 16px;
+}
+
+.navbar .el-icon-s-operation {
+  cursor: pointer;
+  font-size: 20px;
+  display: inline-block;
+  line-height: 50px;
+  margin-left: 20px;
+}
+
+.icon_ground {
+  margin-right: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.icon_ground i {
+  cursor: pointer;
+  margin-right: 15px;
+}
+
+.icon_ground span {
+  text-indent: 10px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dynamic_table {
+  box-shadow: 0 1px 2px rgb(0 21 41 / 8%);
+  height: 30px;
+}
+
+.dynamic_table p {
+  line-height: 30px;
+  text-align: center;
+}
+
+.cont_detail {
+  position: fixed;
+  background: #f0f2f5;
+  height: 100%;
+  width: 84%;
+}

@@ -1,0 +1,56 @@
+.date {
+  margin-left: 30px;
+}
+
+.date td {
+  width: 400px;
+  font-size: 18px;
+  line-height: 50px;
+}
+
+.offer_thesis .el-table .cell {
+  font-size: 16px;
+}
+
+.offer_thesis span {
+  cursor: pointer;
+}
+
+.offer_thesis .el-button {
+  width: 140px;
+}
+
+.is_date {
+  color: red;
+  font-weight: 500;
+}
+
+.offer .el-dialog__header {
+  background: #c0e3e7;
+  padding: 10px;
+  width: 90%;
+  margin-left: 3%;
+  margin-top: 5px;
+}
+
+.offer .el-dialog__title {
+  margin-left: 38%;
+  color: #fff;
+}
+
+.table_tr {
+  margin-bottom: 30px;
+  display: inline-block;
+}
+
+.el-dialog__body span {
+  font-size: 16px;
+}
+
+.el-dialog__body tr {
+  line-height: 40px;
+}
+
+.el-dialog__body .el-link span {
+  color: #c0e3e7;
+}
